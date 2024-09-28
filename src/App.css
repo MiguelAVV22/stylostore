@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ff49e19a;
+}
+.App-header {
+  background-color: #ff0080;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+.App-header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+  background-color: #d916f391;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+nav a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+.hero {
+  background-image: url('https://example.com/hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+.producto {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(245, 100, 100, 0.562);
+}
+.producto img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.producto h3 {
+  padding: 10px;
+  font-size: 1.5em;
+  margin: 0;
+}
+.producto p {
+  padding: 0 10px;
+  color: #555;
+}
+.producto .precio {
+  padding: 10px;
+  font-size: 1.2em;
+  color: #e67e22;
+  font-weight: bold;
+}
+footer {
+  background-color: #ff004c7a;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
