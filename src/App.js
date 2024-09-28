@@ -23,7 +23,7 @@ function App() {
       <section className="productos">
         <Producto
           img="\img\camisaceleste.jpg"
-          nombre="Camisa Elegante"
+          nombre="Camisa elegante del miguel pabito "
           descripcion="Camisa de alta calidad perfecta para cualquier ocasión."
           precio="$29.99"
         />
