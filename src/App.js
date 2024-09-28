@@ -12,12 +12,12 @@ function App() {
           <a href="#">Mujer</a>
           <a href="#">Hombre</a>
           <a href="#">Accesorios</a>
-          <a href="#">Contacto</a>
+      a    <a href="#">Contacto</a>
         </nav>
       </header>
 
       <section className="hero">
-        <h2>Descubre lo último en moda Emanuel  </h2>
+        <h2>Descubre lo último en moda Isai PAWITO   </h2>
       </section>
 
       <section className="productos">
