@@ -17,7 +17,7 @@ function App() {
       </header>
 
       <section className="hero">
-        <h2>Descubre lo último en moda Isai PAWITO   </h2>
+        <h2>Descubre lo último en moda PEPE HACE ALGO X TU VIDA  </h2>
       </section>
 
       <section className="productos">
